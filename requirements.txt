@@ -192,6 +192,10 @@ flatten-dict==0.4.2 \
     --hash=sha256:506a96b6e6f805b81ae46a0f9f31290beb5fa79ded9d80dbe1b7fa236ab43076 \
     --hash=sha256:7e245b20c4c718981212210eec4284a330c9f713e632e98765560e05421e48ad
     # via mkdocs-plotly-plugin
+fpyutils==4.0.1 \
+    --hash=sha256:006cfbdbd87915d8a1c5b7062b6c8d2f4f9fd12c3e707d89c27e6abd6c67c6b2 \
+    --hash=sha256:5ee8448b09863d5905ad22cf5f6c8af79d3b314617ac8fbded48eb2a414988e6
+    # via md-toc
 ghp-import==2.1.0 \
     --hash=sha256:8337dd7b50877f163d4c0289bc1f1c7f127550241988d568c1db512c4324a619 \
     --hash=sha256:9c535c4c61193c2df8871222567d7fd7e5014d835f97dc7b7439069e2413d343
@@ -361,6 +365,10 @@ matplotlib-inline==0.1.7 \
     # via
     #   ipykernel
     #   ipython
+md-toc==9.0.0 \
+    --hash=sha256:a4e73b59f71c20b94c8c16bc6ef3bc2e80d1d40c398050101f80c3567fda7271 \
+    --hash=sha256:dfd57de2faf252be1d6faf9bed7eab506e1caa7c4486ab6d6d04556426d5a7a5
+    # via mkdocs-material-stem-template (pyproject.toml)
 mdit-py-plugins==0.4.1 \
     --hash=sha256:1020dfe4e6bfc2c79fb49ae4e3f5b297f5ccd20f010187acc52af2921e27dc6a \
     --hash=sha256:834b8ac23d1cd60cec703646ffd22ae97b7955a6d596eb1d304be1e251ae499c
