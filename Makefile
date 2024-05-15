@@ -11,7 +11,7 @@ lock:
 
 prod:
 	.venv/bin/python3 -m pip install \
-    	--require-hashes --no-deps --only-binary :all: \
+    	--require-hashes --no-deps \
     	-r requirements.txt
 	.venv/bin/python3 -m pip install .  # <- the app/pkg itself
 
