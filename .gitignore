@@ -162,3 +162,5 @@ cython_debug/
 
 docs/drawio-exporter
 # requirements*.txt # Ideally ignore these but they take ages to calculate
+
+site.tar
