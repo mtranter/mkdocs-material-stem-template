@@ -32,7 +32,7 @@ docs: fix
 	.venv/bin/md_toc --in-place github --header-levels 4 README.md
 	.venv/bin/mkdocs build
 
-ci-build: prod docs
+ci-build: init prod docs
 
 docs-dev:
 	.venv/bin/mkdocs serve
