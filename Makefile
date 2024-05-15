@@ -28,7 +28,7 @@ fix:
 	.venv/bin/pre-commit run
 	.venv/bin/isort .
 
-docs: fix
+docs:
 	.venv/bin/md_toc --in-place github --header-levels 4 README.md
 	.venv/bin/mkdocs build
 
